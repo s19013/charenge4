@@ -2,17 +2,13 @@ def f1 (x):
     """
     引数を2で割る
     """
-    a=x//2
-    print(a)
-    return a
+    return x//2
 
 
 def f2 (y):
     """
     4をかける
     """
-    s=y*4
-    print(s)
-    return s
+    return y*4
 
-f2(f1(4))
+print(f2(f1(4)))

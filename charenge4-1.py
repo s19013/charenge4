@@ -1,8 +1,7 @@
-def p ():
+def p (x):
     """
     受け取った値を二乗にして返す
     """
-    a=int(input())
-    return print(a**2)
+    return x**2
 
-p()
+print(p(2))
